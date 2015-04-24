@@ -7,7 +7,20 @@
     display: block;
     height: 70px;
     width: 81px;
-    background: #000000 url(/images/logo/pe.png) no-repeat left;
+    background: #000000 url(/images/logo/pws.png) no-repeat right;
+}
+
+#top_img_left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 70px;
+    width: 173px;
+    background: url(/images/logo/pe2010.png) top left no-repeat;
+    text-indent: -999em;
+    text-decoration: none;
+    border-bottom: none;
 }
 
 body { word-wrap:break-word; }
@@ -21,22 +34,24 @@ article { padding-left:1em; }
 
 /* Base.html - top navigation */
 .top-bar {
-/* 2BA6E3 #2B0034 */
-background: #2B0034; /* Header color */
-height: 100%; 
-margin-bottom: 1em; 
+    /* 2BA6E3 #2B0034  background: #2B0034;  Header color */
+    background: #000000; /* Header color */
+    height: 70px;    
+    margin-bottom: 1em; 
 }
 
-.top-bar a { color: #fff } /* Sitename color */
+.top-bar a {
+    color: #fff
+} /* Sitename color */
 ul.button-group.navigation { margin-bottom: 1em; }
 
 
 /* Base.html sidebar */
 h5.sidebar-title {
-border-bottom: 0.1em solid #eeeeee;
-margin-top: 1em;
-font-weight: bold;
-text-transform: uppercase;
+    border-bottom: 0.1em solid #eeeeee;
+    margin-top: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .side-nav li a { color: #222}
